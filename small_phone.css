@@ -1,0 +1,317 @@
+/* Initializing */
+
+
+/* Container */
+
+#container{
+    margin-top: 0px!important;
+}
+
+/* Navigation Bar */
+
+#navbar{
+    background-color: white;
+    position: absolute;
+    top: 0px!important;
+    margin-top: 0px!important;
+}
+
+#logo{
+    height: 30px;
+    width: 200px;
+    position: absolute;
+    left: 10px!important;
+    top: 0px!important;
+}
+
+#logo_dark{
+    display: inline-block!important;
+}
+
+#logo_light{
+    display: none;
+}
+
+#navoptions{
+    margin-top: 0px!important;
+    right: 0px!important;
+    top: 28px!important;
+    width: 200px!important;
+}
+
+#navoptions ul li{
+    margin: 0px 2px!important;
+}
+
+#navoptions ul li a{
+    color: black!important;
+    font-size: 0.7rem!important;
+}
+
+#navoptions ul li i{
+    /* margin: 0px 8px!important; */
+    display: none;
+}
+
+#search_i{
+    display: inline!important;
+}
+
+#search_i:hover{
+    color: yellow;
+}
+
+/* Main Section */
+
+#main_section{
+    height: 800px!important;
+}
+
+/* Product Content */
+
+
+#product_content{
+    width: 200px!important;
+    top: 15%!important;
+    left: 2%!important;
+    margin-top: 0px!important;
+}
+
+#product_content h5{
+    font-size: 0.8em!important;
+}
+
+#product_content h1{
+    font-size: 1.1rem!important;
+    margin-top: 5px!important;
+}
+
+#product_content p{
+    font-size: 0.6rem!important;
+    margin: 5px 0px!important;
+    color: white!important;
+}
+
+#product_content div{
+    margin: 0px 0px!important;
+    padding: 7px 5px!important;
+}
+
+/* Services */
+
+#services{
+    margin-top: 50px!important;
+}
+
+.services_div{
+    height: 220px!important;
+}
+
+#services_box{
+    margin-top: 0px!important;
+}
+
+#services_div_2{
+    margin-top: 0px!important;
+}
+
+.services_details{
+    flex-direction: column!important;
+    margin: 15px 0px!important;
+}
+
+.services_details h1{
+    font-size: 1.1rem!important;
+    font-weight: bold;
+}
+
+.services_details img{
+    width: 300px!important;
+}
+
+.services_details div img{
+    order: 1;
+}
+
+.services_details div{
+    margin: 40px 5px!important;
+    width: 100%!important;
+    order: 2;
+}
+
+/* Intro Video */
+
+#intro_video{
+    margin: 5px 0px!important;
+}
+
+#playicon img{
+    display: none;
+}
+
+#video_image{
+    width: 300px!important;
+    margin: 10px!important;
+}
+
+#video_image img{
+    width: 300px!important;
+    margin: 0px!important;
+}
+
+#video_info{
+    margin: 20px 0px!important;
+    font-size: 0.8rem!important;
+    flex-direction: column!important;
+}
+
+#video_quote{
+    margin: 20px!important;
+    width: 300px!important;
+}
+
+#video_info_div{
+    /* margin: 0px!important;
+    position: relative;
+    right: 20px;
+    width: 35%!important; */
+    display: none!important;
+}
+
+#video_info_ul li{
+    width: 350px!important;
+}
+/* Pricing */
+
+#pricing{
+    background: none!important;
+    height: 1500px!important;
+}
+
+#offer_parent_div{
+    display: flex;
+    flex-direction: column!important;
+}
+
+.offers{
+    width: 300px!important;
+    height: 400px!important;
+    background-color: white;
+    box-shadow: 0px 5px 10px 0px rgba(128, 128, 128, 0.274);
+    border-radius: 10px;
+    margin: 10px 0px!important;
+}
+
+/* Customer Reviews */
+
+#customers{
+    display: flex;
+    flex-direction: column;
+}
+
+#about_customer{
+    margin: 20px 10px!important;
+    order: 2;
+    width: 300px!important;
+}
+
+#about_customer h1{
+    font-size: 2rem!important;
+}
+
+#about_customer p{
+    margin: 10px 0px;
+}
+
+#customer_reviews{
+    background-image: none!important;
+    padding: 0px!important;
+    order: 1;
+    margin: 0px!important;
+    width: 300px!important;
+}
+
+/* Cards */
+
+#cards_div1{
+    display: flex;
+    flex-direction: column;
+}
+
+#card2{
+    height: 650px!important;
+}
+
+.cards_class{
+    width: 300px!important;
+    height: 620px!important;
+    margin: 10px 10px!important;
+}
+
+/* Subsribe */
+
+#subscribe_main{
+    margin: 10px 0px!important;
+}
+
+#subscribe{
+    width: 350px!important;
+}
+
+#subscribe h1{
+    font-size: 1rem!important;
+    width: 300px!important;
+    margin: 20px 0px!important;
+}
+
+#subscribe p{
+    width: 300px!important;
+    text-align: center;
+}
+
+#subscribe form{
+    display: flex!important;
+    flex-direction: column!important;
+    justify-content: center;
+    align-items: center;
+    width: 280px!important;
+}
+
+#subscribe form input{
+    width: 260px!important;
+}
+
+#subscribe form div{
+    margin: 10px 0px!important;
+}
+
+/* Company Logo */
+
+#company_logo{
+    flex-flow: row wrap!important;
+    width: 80%!important;
+}
+
+.logo_class{
+    margin: 5px 5px;
+}
+
+/* Footer */
+
+footer span{
+    text-align: center;
+}
+
+/* Quick_Links */
+
+#quick_links{
+    flex-flow: row wrap!important;
+}
+
+#ql_div_2{
+    margin: 30px 0px!important;
+}
+
+#ql_div_2 ul{
+    margin: 0px 5px!important;
+}

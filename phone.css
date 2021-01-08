@@ -1,0 +1,224 @@
+/* Navigation Bar */
+
+#navbar{
+    display: flex!important;
+    flex-direction: column!important;
+}
+
+/* Main Section */
+
+#main_section{
+    height: 800px!important;
+}
+
+/* Product Content */
+
+
+#product_content{
+    width: 300px!important;
+    top: 15%!important;
+    left: 2%!important;
+}
+
+#product_content h5{
+    font-size: 0.9em!important;
+}
+
+#product_content h1{
+    font-size: 1.2rem!important;
+    margin-top: 10px!important;
+}
+
+#product_content p{
+    font-size: 0.8rem!important;
+    margin-top: 10px!important;
+}
+
+#product_content div{
+    margin: 5px 0px!important;
+    padding: 10px 10px!important;
+}
+
+/* Services */
+
+#services{
+    margin-top: 200px!important;
+}
+
+#services_box{
+    margin-top: 0px!important;
+}
+
+#services_div_2{
+    margin-top: 0px!important;
+}
+
+.services_details{
+    flex-direction: column!important;
+    margin: 50px 0px!important;
+}
+
+.services_details img{
+    width: 300px!important;
+}
+
+.services_details div img{
+    order: 1;
+}
+
+.services_details div{
+    margin: 40px 50px!important;
+    width: 40%!important;
+    order: 2;
+}
+
+/* Intro Video */
+
+#playicon img{
+    display: none;
+}
+
+#video_image img{
+    width: 300px!important;
+    margin: 0px!important;
+}
+
+#video_info{
+    margin: 80px 0px!important;
+    font-size: 0.8rem!important;
+    flex-direction: column!important;
+}
+
+#video_quote{
+    margin: 20px!important;
+    width: 300px!important;
+}
+
+#video_info_div{
+    /* margin: 0px!important;
+    position: relative;
+    right: 20px;
+    width: 35%!important; */
+    display: none!important;
+}
+
+#video_info_ul li{
+    width: 350px!important;
+}
+/* Pricing */
+
+#pricing{
+    background: none!important;
+    height: 1500px!important;
+}
+
+#offer_parent_div{
+    display: flex;
+    flex-direction: column!important;
+}
+
+.offers{
+    width: 300px!important;
+    height: 400px!important;
+    background-color: white;
+    box-shadow: 0px 5px 10px 0px rgba(128, 128, 128, 0.274);
+    border-radius: 10px;
+    margin: 10px 0px!important;
+}
+
+/* Customer Reviews */
+
+#customers{
+    display: flex;
+    flex-direction: column;
+}
+
+#about_customer{
+    margin: 40px 10px!important;
+    order: 2;
+    width: 300px!important;
+}
+
+#about_customer h1{
+    font-size: 2rem!important;
+}
+
+#about_customer p{
+    margin: 10px 0px;
+}
+
+#customer_reviews{
+    background-image: none!important;
+    padding: 0px!important;
+    order: 1;
+    margin: 0px!important;
+    width: 300px!important;
+}
+
+/* Cards */
+
+#cards_div1{
+    display: flex;
+    flex-direction: column;
+}
+
+#card2{
+    height: 650px!important;
+}
+
+.cards_class{
+    width: 325px!important;
+    height: 625px!important;
+}
+
+/* Subsribe */
+
+#subscribe{
+
+}
+
+#subscribe h1{
+    font-size: 1rem!important;
+    width: 300px!important;
+}
+
+#subscribe p{
+    width: 300px!important;
+    text-align: center;
+}
+
+#subscribe form{
+    display: flex!important;
+    flex-direction: column!important;
+    justify-content: center;
+    align-items: center;
+    width: 400px!important;
+}
+
+#subscribe form input{
+    width: 300px!important;
+}
+
+#subscribe form div{
+    margin: 10px 0px!important;
+}
+
+/* Company Logo */
+
+#company_logo{
+    flex-flow: row wrap!important;
+}
+
+/* Quick_Links */
+
+#quick_links{
+    flex-flow: row wrap!important;
+}
+
+#ql_div_2{
+    margin: 30px 0px!important;
+}
+
+#ql_div_2 ul{
+    margin: 0px 5px!important;
+}
